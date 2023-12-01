@@ -917,3 +917,13 @@
       lgaSelect.appendChild(opt);
     });
   };
+
+// javascript code for hamb bar for mobile screens
+var harmburger = document.querySelector(".hamb");
+var navlist = document.querySelector(".nav-list")
+var list = document.querySelector(".nav-list li");
+
+harmburger.addEventListener("click", function(){
+    this.classList.toggle("click");
+    navlist.classList.toggle("open");
+});
