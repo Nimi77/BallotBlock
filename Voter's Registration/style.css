@@ -203,8 +203,20 @@ form > .stateArea{
     gap: 16px;
     align-self: stretch;
 }
+.stateArea .state{
+    width:298px;
+}
+.stateArea .area select{
+    width:298px;
+    height:42px;
+}
+.state select option, 
+.area select option{
+    color:#000;
+}
 /* button styling */
-form .button > button{
+.container .button{
+    width:612px;
     display: flex;
     padding: 10px 18px;
     justify-content: center;
@@ -215,6 +227,10 @@ form .button > button{
     border-radius: 40px;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
-button a{
+.button a{
     color:#fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
 }
