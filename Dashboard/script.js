@@ -15,7 +15,6 @@ function timer(){
     
     if(distance < 0){
         clearInterval(x);
-        document.getElementById("days").innerHTML = "00";
         document.getElementById("hours").innerHTML =  "00";
         document.getElementById("mins").innerHTML =  "00";
         document.getElementById("secs").innerHTML =  "00";
