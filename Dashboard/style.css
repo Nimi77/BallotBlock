@@ -509,8 +509,29 @@ main .dashboard-container{
     .vote{
         display: flex;
         flex-direction: column;
+        align-items:flex-start;
+    }
+    .vote .vote-text h3{
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        text-transform: capitalize;
+    }
+    .vote-text p{
+        font-size: 14px;
+        line-height: 24px; 
+    }
+    .timer .time span{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .vote .vote-timing{
         align-items: flex-start;
-     
-        align-self: stretch;
+        display:flex;
+        flex-direction: row;
     }
 }
